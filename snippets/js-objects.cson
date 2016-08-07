@@ -1,0 +1,49 @@
+'.source.js':
+
+  'key/value pair':
+    prefix: 'kv'
+    body: '${1:key}: ${2:value},'
+
+  'getter':
+    prefix: 'get'
+    body: '''
+      get ${1:property} () {
+        ${0}
+      }
+    '''
+
+  'setter':
+    prefix: 'set'
+    body: '''
+      set ${1:property} (${2:value}) {
+        ${0}
+      }
+    '''
+
+  'getter + setter':
+    prefix: 'gs'
+    body: '''
+      get ${1:property} () {
+        ${0:return }
+      }
+
+      set ${1:property} (${2:value}) {
+
+      }
+    '''
+
+  'prototype method':
+    prefix: 'pro'
+    body: '''
+      ${1:Class}.prototype.${2:method} = (${3:args}) => {
+        ${0}
+      }
+    '''
+
+  'chain prototype method':
+    prefix: '.pro'
+    body: '''
+      .prototype.${2:methodName} = (${3:args}) => {
+        ${0}
+      }
+    '''

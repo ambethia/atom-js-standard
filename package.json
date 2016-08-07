@@ -1,0 +1,11 @@
+{
+  "name": "ambethia",
+  "version": "0.0.0",
+  "description": "My personal Atom package, with snippets, etc.",
+  "repository": "https://github.com/ambethia/atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

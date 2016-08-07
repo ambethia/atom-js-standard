@@ -1,0 +1,13 @@
+'.source.js':
+
+  'console.log':
+    prefix: ['cl', 'log']
+    body: 'console.log(${1})'
+
+  'console.log...':
+    prefix: 'cll'
+    body: "console.log('${1:title}', ${2})"
+
+  'use strict':
+    prefix: 'us'
+    body: 'use strict\n\n'

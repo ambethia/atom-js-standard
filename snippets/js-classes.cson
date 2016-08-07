@@ -1,0 +1,30 @@
+'.source.js':
+
+  'class':
+    prefix: 'c'
+    body: '''
+      class ${1:name} {
+      constructor(${2:args}) {
+        ${0}
+      }
+    }
+    '''
+
+  'class extends':
+    prefix: 'cex'
+    body: '''
+      class ${1:name} extends ${2:base} {
+        constructor(${3:args}) {
+          super(${3:args})
+          ${0}
+        }
+    }
+    '''
+
+  'class method':
+    prefix: ['cf', 'fc', 'm']
+    body: '''
+      ${1:name} (${2:args}) {
+        ${0}
+      }
+    '''

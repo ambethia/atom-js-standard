@@ -1,0 +1,17 @@
+'.source.js':
+
+  'let statement':
+    prefix: 'l'
+    body: 'let ${1:name}'
+
+  'let assignment':
+    prefix: 'le'
+    body: 'let ${1:name} = ${2:value}'
+
+  'const statement':
+    prefix: 'c'
+    body: 'const ${1:name}'
+
+  'const assignment':
+    prefix: 'co'
+    body: 'const ${1:name} = ${2:value}'

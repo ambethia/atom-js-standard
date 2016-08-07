@@ -1,0 +1,71 @@
+'.source.js':
+
+  'React: componentDidMount':
+    prefix: 'cdm'
+    body: 'componentDidMount () {\n  ${1}\n}${2}'
+
+  'React: componentDidUpdate':
+    prefix: 'cdup'
+    body: 'componentDidUpdate (prevProps, prevState) {\n  ${1}\n}${2}'
+
+  'React: componentWillMount':
+    prefix: 'cwm'
+    body: 'componentWillMount () {\n  ${1}\n}${2}'
+
+  'React: componentWillReceiveProps':
+    prefix: 'cwrp'
+    body: 'componentWillReceiveProps (nextProps) {\n  ${1}\n}${2}'
+
+  'React: componentWillUnmount':
+    prefix: 'cwun'
+    body: 'componentWillUnmount () {\n  ${1}\n}${2}'
+
+  "React: componentWillUpdate (np, ns) { ... }":
+    prefix: 'cwu'
+    body: "componentWillUpdate(nextProps, nextState) {\n  ${1}\n}${2}"
+
+  'React: classNames':
+    prefix: 'cx'
+    body: 'cx({\n  $1: $2\n})'
+
+  'React: propTypes':
+    prefix: 'cpt'
+    body: '${1}.propTypes = {\n  ${2}: React.PropTypes.${3:string}\n}'
+
+  'React: displayName':
+    prefix: 'cdn'
+    body: "${1}.displayName = '${1}'"
+
+  'React: render':
+    prefix: 'ren'
+    body: '''
+      render () {
+        return (
+          ${1:div}
+        )
+      }
+    '''
+
+  'React: setState':
+    prefix: 'ss'
+    body: 'this.setState({\n  ${1}: ${2}\n})'
+
+  'React: shouldComponentUpdate':
+    prefix: 'scu'
+    body: 'shouldComponentUpdate (nextProps, nextState) {\n  ${1}\n}${2}'
+
+  'React: this.props':
+    prefix: "props"
+    body: 'this.props.${1}'
+
+  'React: this.state.':
+    prefix: 'state'
+    body: 'this.state.${1}'
+
+  'React: constructor':
+    prefix: 'cons'
+    body: 'constructor (props) {\n  super(props)\n  ${1:this.state = ${2}}\n}'
+
+  'React: dangerouslySetInnerHTML':
+    prefix: 'danger'
+    body: 'dangerouslySetInnerHTML={{__html: ${1}}}'
