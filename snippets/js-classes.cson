@@ -1,20 +1,20 @@
 '.source.js':
 
   'class':
-    prefix: 'c'
+    prefix: ['class']
     body: '''
       class ${1:name} {
-      constructor(${2:args}) {
+      constructor (${2:args}) {
         ${0}
       }
     }
     '''
 
   'class extends':
-    prefix: 'cex'
+    prefix: ['classx']
     body: '''
       class ${1:name} extends ${2:base} {
-        constructor(${3:args}) {
+        constructor (${3:args}) {
           super(${3:args})
           ${0}
         }
