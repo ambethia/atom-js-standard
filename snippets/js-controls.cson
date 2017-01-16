@@ -41,8 +41,28 @@
     body: 'for (let ${1:key} of ${2:source}) {\n  ${3}\n}'
 
   'while':
-    prefix: 'wl'
+    prefix: ['while', 'wl']
     body: 'while (${1:condition}) {\n  ${2}\n}'
+
+  'switch':
+    prefix: ['switch', 'sw']
+    body: '''
+      switch (${1:expression}) {
+        case ${2:value}:
+          ${3}
+          break
+        default:
+          break
+      }
+    '''
+
+  'case':
+    prefix: ['case', 'ca']
+    body: '''
+      case ${1:value}:
+        ${2}
+        break
+    '''
 
   'try/catch':
     prefix: 'tc'
