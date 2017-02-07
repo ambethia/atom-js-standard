@@ -35,7 +35,7 @@
   'ƒ Immediately-Invoked Function Expression':
     prefix: 'iife'
     body: '''
-      ;(() => {
+      (() => {
         ${0}
       })()
     '''
