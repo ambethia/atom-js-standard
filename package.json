@@ -1,6 +1,6 @@
 {
   "name": "atom-js-standard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS Standard snippets with ES2015+ and React",
   "repository": "https://github.com/ambethia/atom-js-standard",
   "license": "MIT",
