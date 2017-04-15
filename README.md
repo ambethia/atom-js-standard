@@ -4,6 +4,7 @@ All snippets use [JavaScript Standard Style](http://standardjs.com).
 
 - ES2015+ features
 - Common React patterns
+- NO SEMICOLONS
 
 ## Installation
 
