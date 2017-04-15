@@ -1,4 +1,4 @@
-Copyright (c) 2016 Jason L Perry
+Copyright (c) 2016-2017 Jason L Perry
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

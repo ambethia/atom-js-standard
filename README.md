@@ -1,12 +1,13 @@
-My personal Atom package, with snippets, etc.
+# Standard JavaScript Snippets for Atom.
 
-## Modern JavaScript Snippets
+All snippets use [JavaScript Standard Style](http://standardjs.com).
 
-- ES2015+ syntaxes in [JavaScript Standard Style](http://standardjs.com).
-- React
+- ES2015+ features
+- Common React patterns
 
 ## Installation
 
-    git clone git@github.com:ambethia/atom-ambethia.git
-    cd atom-ambethia
-    apm link .
+I recommended disabling the built-in `langage-javascript` package and using this in
+combination with (`language-babel`)[https://atom.io/packages/language-babel] instead.
+
+   apm install atom-js-standard
