@@ -83,3 +83,17 @@
 
       export default ${1}
     '''
+
+  'React: Functional Component':
+    prefix: 'rf'
+    body: '''
+      import React from 'react'
+
+      const ${1:Name} = () => (
+        ${3:<div className='${1}'>
+          ${2:...}
+        </div>}
+      )
+
+      export default ${1}
+    '''
